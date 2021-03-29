@@ -1,4 +1,3 @@
-
 import pandas as pd 
 
 #rename lista_chamada_t5.txt
@@ -18,7 +17,7 @@ def status(chamada,presenca):
 	#lista = [x for x in presenca if x in chamada]
 
 	aluno_status = dict.fromkeys(chamada,'F')
-	value = ''
+	#value = ''
 	total_respostas = len(presenca)
 
 	for i in range(total_respostas):
